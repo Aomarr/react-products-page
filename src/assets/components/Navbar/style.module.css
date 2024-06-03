@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    max-width: 1236px;
+    margin: auto;
+}
+.ourproducts {
+    font-size: 48px;
+    line-height: 89.95px;
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+}
+.ourproducts::after {
+    content: "";
+    width: 100px;
+    height: 6px;
+    border-radius: 60px;
+    background-color: #007BFF;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+}
